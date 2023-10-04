@@ -1,6 +1,8 @@
 package edu.miu.cs489.suleman.model;
 
 import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+import java.util.Objects;
 
 public class Employee {
     private long employeeId;
@@ -8,6 +10,8 @@ public class Employee {
     private String lastName;
     private LocalDate employmentDate;
     private double yearlySalary;
+
+    private PensionPlan pensionPlan;
 
     // Constructors
     public Employee() {
@@ -42,6 +46,10 @@ public class Employee {
         this.yearlySalary = yearlySalary;
     }
 
+    public void setPensionPlan(PensionPlan pensionPlan){
+        this.pensionPlan = pensionPlan;
+    }
+
     public long getEmployeeId() {
         return employeeId;
     }
@@ -62,6 +70,22 @@ public class Employee {
         return yearlySalary;
     }
 
+    public PensionPlan getPensionPlan(){
+        return this.pensionPlan;
+    }
+
+    public boolean isEligibleForUpcomingEnrollment(){
+        if(Objects.isNull(this.getPensionPlan())){
+            LocalDate now = LocalDate.now().plusMonths(1);
+            now = now.withDayOfMonth(now.getMonth().length(now.isLeapYear()));
+            long employmentTenure = ChronoUnit.YEARS.between(
+                    this.employmentDate,
+                    now);
+            System.out.println(employmentTenure);
+            return Objects.isNull(this.getPensionPlan().getEnrollmentDate()) && employmentTenure >= 5;
+        }
+        return false;
+    }
     @Override
     public String toString() {
         return "Employee{" +
@@ -70,6 +94,8 @@ public class Employee {
                 ", lastName='" + lastName + '\'' +
                 ", employmentDate=" + employmentDate +
                 ", yearlySalary=" + yearlySalary +
+                ", pensionPlan=" + pensionPlan +
                 '}';
     }
+
 }
