@@ -1,0 +1,53 @@
+[
+    {
+        "SupplierId": 1,
+        "SupplierName": "Google, Inc.",
+        "ContactPhone": null,
+        "Products": [
+            {
+                "ProductNo": 3128874119,
+                "Name": "Pixel 8 Pro",
+                "DateSupplied": "2023-01-24",
+                "Quantity": 124,
+                "UnitPrice": "$1599.55"
+            }
+        ]
+    },
+
+    {
+        "SupplierId": 2,
+        "SupplierName": "Apple, Inc.",
+        "ContactPhone": "(641) 123-0987",
+        "Products": [
+            {
+                "ProductNo": 2927458265,
+                "Name": "iPad 14 Pro",
+                "DateSupplied": "2022-12-09",
+                "Quantity": 18,
+                "UnitPrice": "$1700.09"
+            },
+            {
+                "ProductNo": 2927458266,
+                "Name": "iPhone 15",
+                "DateSupplied": "2023-10-11",
+                "Quantity": 95,
+                "UnitPrice": "$1650.85"
+            }
+        ]
+    },
+
+    {
+        "SupplierId": 3,
+        "SupplierName": "Samsung Corporation",
+        "ContactPhone": null,
+        "Products": []
+    },
+
+    {
+        "SupplierId": 4,
+        "SupplierName": "Huawei",
+        "ContactPhone": null,
+        "Products": []
+    }
+
+]
