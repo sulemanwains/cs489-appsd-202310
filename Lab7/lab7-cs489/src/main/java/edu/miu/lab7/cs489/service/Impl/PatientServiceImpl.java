@@ -1,8 +1,8 @@
-package edu.miu.lab6.cs489.service.Impl;
+package edu.miu.lab7.cs489.service.Impl;
 
-import edu.miu.lab6.cs489.model.Patient;
-import edu.miu.lab6.cs489.repo.PatientRepo;
-import edu.miu.lab6.cs489.service.PatientService;
+import edu.miu.lab7.cs489.model.Patient;
+import edu.miu.lab7.cs489.repo.PatientRepo;
+import edu.miu.lab7.cs489.service.PatientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
