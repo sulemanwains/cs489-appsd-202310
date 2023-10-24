@@ -5,36 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="464bc8a4-f372-47aa-b242-d87a748157e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.jpb/persistence-units.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ScreenShot/analysis-domain-model-class-diagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_script.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/Lab7cs489.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/model/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/model/Appointment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/model/Dentist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/model/Patient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/model/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/model/Surgery.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/repo/AddressRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/repo/AppointmentsRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/repo/DentistRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/repo/PatientRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/repo/SurgeryRepo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/service/AppointmentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/service/DentistService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/service/Impl/AppointmentServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/service/Impl/DentistServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/service/Impl/PatientServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/miu/lab7/cs489/service/PatientService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/miu/lab7/cs489/CitylibraryappApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/cs489-appsd-202310/Lab7/lab7-cs489",
+    "last_opened_file_path": "C:/cs489-appsd-202310/Lab Solutions/LabSolutions/ads-dental-appointments-web-api/ads-dental-appointments-web-api",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MavenSettings"
   }
@@ -108,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697696565601</updated>
-      <workItem from="1697696567234" duration="1402000" />
+      <workItem from="1697696567234" duration="2012000" />
     </task>
     <servers />
   </component>
